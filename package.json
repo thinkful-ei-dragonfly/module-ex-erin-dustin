@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei-dragonfly/module-ex-erin-dustin/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-dragonfly/module-ex-erin-dustin#readme"
+  "homepage": "https://github.com/thinkful-ei-dragonfly/module-ex-erin-dustin#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
