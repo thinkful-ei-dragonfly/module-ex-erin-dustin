@@ -1,7 +1,11 @@
 /* global store, api, $ */
 'use strict';
 // eslint-disable-next-line no-unused-vars
-// const shoppingList = function(){
+import $ from 'jquery';
+import api from './api';
+import store from './store';
+
+
 
 function generateError(message) {
   return `
@@ -200,7 +204,7 @@ function bindEventListeners() {
 }
 
 // This object contains the only exposed methods from this module:
-return {
+export default {
   render: render,
   bindEventListeners: bindEventListeners,
 };
