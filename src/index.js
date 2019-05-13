@@ -5,6 +5,8 @@ import $ from 'jquery';
 import shoppingList from './shopping-list';
 import store from './store';
 
+import index from './index.css';
+
 $(document).ready(function() {
   console.log('working');
   shoppingList.bindEventListeners();
